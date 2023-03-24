@@ -8,6 +8,11 @@
   scroll-behavior: smooth;
 }
 
+:root {
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
 .bg-gradient-header {
   background: linear-gradient(
     268.78deg,
