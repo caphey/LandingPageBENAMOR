@@ -13,7 +13,7 @@
   color: #fff;
 }
 
-.bg-gradient-header {
+.bg_gradient_header {
   background: linear-gradient(
     268.78deg,
     rgba(109, 149, 252, 0.67) -53.1%,
@@ -22,7 +22,7 @@
   );
 }
 
-.bg-gradient-about {
+.bg_gradient_about {
   background: linear-gradient(
     273.72deg,
     rgba(109, 149, 252, 0.26) 6.51%,
@@ -31,7 +31,7 @@
   transform: rotate(180deg);
 }
 
-.bg-gradient-stats {
+.bg_gradient_stats {
   background: linear-gradient(
     90deg,
     #6d95fc -127.55%,
@@ -40,12 +40,12 @@
   transform: rotate(180deg);
 }
 
-.bg-gradient-footer {
+.bg_gradient_footer {
   background: #6d95fc;
   filter: blur(250px);
 }
 
-.bg-gradient {
+.bg_gradient {
   background: linear-gradient(
     223.47deg,
     rgba(109, 149, 252, 0.24) 3.19%,

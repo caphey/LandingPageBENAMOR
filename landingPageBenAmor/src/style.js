@@ -2,13 +2,14 @@ const styles = {
   boxWidth: "xl:max-w-[1280px] w-full",
 
   heading2:
-    "font-semibold xs:text-[48px] text-[40px] text-white xs:leading-[76.8px] leading-[66.8px] w-full",
-  paragraph: "font-normal text-dimWhite text-[18px] leading-[30.8px]",
+    "font-semibold xs:text-[48px] text-[48px] xs:leading-[76.8px] leading-[66.8px] w-full",
+  paragraph: "font-normal text-[16px] leading-8 sm:text-[21px]",
 
   flexCenter: "flex justify-center items-center",
   flexStart: "flex justify-center items-start",
+  flexEnd: "flex justify-end items-end",
 
-  paddingX: "sm:px-22 px-6",
+  paddingX: "sm:px-16 px-6",
   paddingY: "sm:py-16 py-6",
   padding: "sm:px-22 px-6 sm:py-12 py-4",
 

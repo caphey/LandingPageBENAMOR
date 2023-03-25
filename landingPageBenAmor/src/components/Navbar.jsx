@@ -37,9 +37,9 @@ const Navbar = () => {
         <div
           className={`${
             toogle ? "flex" : "hidden"
-          } absolute top-16 right-0 mt-16  w-full `}
+          } absolute top-16 right-0 mt-16  w-full bg-primary `}
         >
-          <ul className="list-none flex flex-col justify-end items-start  p-8 flex-1 ">
+          <ul className="list-none flex flex-col justify-end items-start p-8 flex-1 ">
             {navLinks.map((nav, index) => (
               <li
                 key={nav.id}
