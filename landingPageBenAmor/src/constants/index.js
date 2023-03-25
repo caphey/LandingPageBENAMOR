@@ -5,6 +5,7 @@ import {
   pinterest,
   whatapp,
   linkedin,
+  search,
 } from "../assets";
 
 export const navLinks = [
@@ -34,7 +35,7 @@ export const navLinks = [
   },
   {
     id: "search",
-    // icon:
+    icon: search,
   },
 ];
 
