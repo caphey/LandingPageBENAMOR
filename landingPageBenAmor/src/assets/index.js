@@ -22,6 +22,8 @@ import twitter from "./twitter.svg";
 import ux from "./ux.svg";
 import video_icon from "./video_icon.svg";
 import whatapp from "./whatapp.svg";
+import menu from "./menu.svg";
+import close from "./close.svg";
 
 export {
   about,
@@ -48,4 +50,6 @@ export {
   ux,
   video_icon,
   whatapp,
+  menu,
+  close,
 };

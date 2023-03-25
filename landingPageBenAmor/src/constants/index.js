@@ -35,7 +35,6 @@ export const navLinks = [
   },
   {
     id: "search",
-    icon: search,
   },
 ];
 
