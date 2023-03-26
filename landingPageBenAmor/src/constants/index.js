@@ -9,6 +9,10 @@ import {
   graphic_icon,
   ux,
   web_icon,
+  stats_1,
+  stats_2,
+  stats_3,
+  stats_4,
 } from "../assets";
 
 export const navLinks = [
@@ -75,21 +79,25 @@ export const features = [
 export const stats = [
   {
     id: "stats-1",
+    img: stats_1,
     title: "Team members",
     value: "50+",
   },
   {
     id: "stats-2",
+    img: stats_2,
     title: "Happy ",
     value: "200+",
   },
   {
     id: "stats-3",
+    img: stats_3,
     title: "Happy Customers",
     value: "500+",
   },
   {
     id: "stats-4",
+    img: stats_4,
     title: "Award Winning",
     value: "75+",
   },

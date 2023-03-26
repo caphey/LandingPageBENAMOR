@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./style";
-import { Navbar, Hero, About, Features } from "./components";
+import { Navbar, Hero, About, Features, Stats } from "./components";
 
 const App = () => {
   return (
@@ -21,6 +21,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <About />
           <Features />
+          <Stats/>
         </div>
       </div>
     </div>
