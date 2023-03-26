@@ -5,6 +5,7 @@ import { stats } from "../constants";
 const Stats = () => {
   return (
     <section
+      id="stats"
       className={`${styles.flexCenter} sm:flex-row flex-col flex-wrap ${styles.paddingY} bg_gradient_stats  `}
     >
       {stats.map((stat, index) => (

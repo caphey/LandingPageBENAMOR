@@ -25,6 +25,7 @@ import whatapp from "./whatapp.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import web_icon from "./web_icon.svg";
+import iconExperience from "./iconExperience.svg";
 
 export {
   about,
@@ -54,4 +55,5 @@ export {
   menu,
   close,
   web_icon,
+  iconExperience,
 };

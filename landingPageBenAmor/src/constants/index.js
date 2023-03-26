@@ -103,6 +103,21 @@ export const stats = [
   },
 ];
 
+export const listExperience = [
+  {
+    id: "list-experience-1",
+    title: "Happy Customer ",
+  },
+  {
+    id: "list-experience-2",
+    title: "Experienced Team",
+  },
+  {
+    id: "list-experience-3",
+    title: "Modern Technology",
+  },
+];
+
 export const footerLinks = [
   {
     id: "categories",

@@ -7,7 +7,7 @@ import { useState, useEffect } from "react";
 const Projects = () => {
   return (
     <section
-      id="projects"
+      id="portfolio"
       className={`${styles.paddingY} ${layout.sectionInfo} items-center `}
     >
       <h2 className={`${styles.heading2} uppercase text-center`}>
@@ -40,7 +40,7 @@ const Slider = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
-    }, 5000);
+    }, 2000);
     return () => clearInterval(interval);
   }, [currentSlide]);
 
@@ -63,7 +63,7 @@ const Slider = () => {
         ))}
       </div>
 
-      <div className="mt-6 relative">
+      <div className="mt-6">
         <ul className="flex justify-center ">
           {slides.map((slide, index) => (
             <li key={index} className="mx-2">

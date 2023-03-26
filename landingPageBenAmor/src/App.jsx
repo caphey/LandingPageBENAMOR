@@ -1,6 +1,14 @@
 import React from "react";
 import styles from "./style";
-import { Navbar, Hero, About, Features, Stats, Projects } from "./components";
+import {
+  Navbar,
+  Hero,
+  About,
+  Features,
+  Stats,
+  Projects,
+  Experience,
+} from "./components";
 
 const App = () => {
   return (
@@ -23,6 +31,7 @@ const App = () => {
           <Features />
           <Stats />
           <Projects />
+          <Experience />
         </div>
       </div>
     </div>
