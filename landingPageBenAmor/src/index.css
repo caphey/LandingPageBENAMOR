@@ -24,11 +24,10 @@
 
 .bg_gradient_about {
   background: linear-gradient(
-    273.72deg,
+    90deg,
     rgba(109, 149, 252, 0.26) 6.51%,
     rgba(109, 149, 252, 0) 57.56%
   );
-  transform: rotate(180deg);
 }
 
 .bg_gradient_stats {
@@ -37,7 +36,6 @@
     #6d95fc -127.55%,
     rgba(21, 21, 21, 0.35) 77.97%
   );
-  transform: rotate(180deg);
 }
 
 .bg_gradient_footer {

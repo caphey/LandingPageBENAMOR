@@ -6,9 +6,9 @@ import { useState } from "react";
 const Navbar = () => {
   const [toogle, settoogle] = useState(false);
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
+    <nav className="w-full flex py-6 items-center">
       <img src={logo} alt="" className="w-[244px] h-[92px]" />
-      <ul className="list-none md:flex hidden justify-end items-center flex-1 ">
+      <ul className="list-none md:flex hidden justify-center items-center flex-1 ">
         {navLinks.map((nav, index) => (
           <li
             key={nav.id}

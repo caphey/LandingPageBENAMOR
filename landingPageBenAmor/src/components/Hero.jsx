@@ -8,11 +8,10 @@ const Hero = () => {
   return (
     <section
       id="home"
-      className={`flex md:flex-row flex-col bg_gradient_header ${styles.paddingY}`}
+      className={`flex md:flex-row flex-col bg_gradient_header ${styles.paddingHero}`}
     >
-      <div></div>
       <div
-        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6 gap-[43px]`}
+        className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:p-16 p-6 gap-[43px]`}
       >
         <p
           className={`${styles.paragraph} text-secondary uppercase leading-[31.5px] `}
@@ -33,7 +32,7 @@ const Hero = () => {
         <Button title="GET IN TOUCH" />
       </div>
 
-      <div className={`flex-1 ${styles.flexEnd} md:my-0 my-10 `}>
+      <div className={`flex-1 ${styles.flexEnd} md:my-0 mt-10 `}>
         <img
           src={hero}
           alt="hero"
