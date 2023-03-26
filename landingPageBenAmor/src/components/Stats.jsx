@@ -5,12 +5,12 @@ import { stats } from "../constants";
 const Stats = () => {
   return (
     <section
-      className={`${styles.flexCenter} sm:flex-row flex-col flex-wrap ${styles.paddingY}  `}
+      className={`${styles.flexCenter} sm:flex-row flex-col flex-wrap ${styles.paddingY} bg_gradient_stats  `}
     >
       {stats.map((stat, index) => (
         <div
           key={stat.id}
-          className={`${styles.flexCenter} flex-col flex-1 ${
+          className={`${styles.flexCenter} flex-col flex-1 sm:mb-0 ${
             index === stats.length - 1 ? "mb-0" : "mb-4"
           }  `}
         >

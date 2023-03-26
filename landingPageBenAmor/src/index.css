@@ -32,7 +32,7 @@
 
 .bg_gradient_stats {
   background: linear-gradient(
-    90deg,
+    -90deg,
     #6d95fc -127.55%,
     rgba(21, 21, 21, 0.35) 77.97%
   );

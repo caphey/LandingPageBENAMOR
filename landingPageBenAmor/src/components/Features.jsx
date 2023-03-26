@@ -43,10 +43,8 @@ const Features = () => {
         <Button title="VIEW ALL" />
       </div>
 
-      <div className={layout.sectionImg}>
-        <div
-          className={`grid sm:grid-cols-2 grid-cols-1 md:ml-10 ml-0 md:mt-0 mt-10`}
-        >
+      <div className={`${layout.sectionImg} md:mr-10 mr-0 `}>
+        <div className={`grid sm:grid-cols-2 grid-cols-1 `}>
           {features.map((feature, index) => (
             <FeatureCard key={feature.id} {...feature} index={index} />
           ))}
