@@ -24,6 +24,7 @@ import video_icon from "./video_icon.svg";
 import whatapp from "./whatapp.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
+import web_icon from "./web_icon.svg";
 
 export {
   about,
@@ -52,4 +53,5 @@ export {
   whatapp,
   menu,
   close,
+  web_icon,
 };

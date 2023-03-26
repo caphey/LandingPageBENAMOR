@@ -14,7 +14,7 @@ const About = () => {
         <img src={about} alt="" className="w-full h-full object-cover" />
       </div>
 
-      <div className={`${layout.sectionInfo} gap-[26px] xl:px-0 sm:px-16 px-6`}>
+      <div className={`${layout.sectionInfo} gap-[26px] `}>
         <p className={`${styles.paragraph} text-secondary uppercase`}>
           about us
         </p>

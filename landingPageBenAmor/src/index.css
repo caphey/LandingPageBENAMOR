@@ -51,3 +51,34 @@
   );
   transform: matrix(1, 0, 0, -1, 0, 0);
 }
+
+.bg_gradient_feature_1 {
+  background: linear-gradient(
+    90deg,
+    rgba(109, 149, 252, 0.35) -346.67%,
+    rgba(21, 21, 21, 0.31) 74.83%
+  );
+}
+
+.bg_gradient_feature_2 {
+  background: linear-gradient(
+    180deg,
+    rgba(109, 149, 252, 0.55) -217.33%,
+    rgba(109, 149, 252, 0) 66.64%
+  );
+}
+
+.bg_gradient_feature_3 {
+  background: linear-gradient(
+    2.42deg,
+    rgba(109, 149, 252, 0.55) -180.08%,
+    rgba(109, 149, 252, 0) 67.52%
+  );
+}
+
+.bg_gradient_feature_4 {
+  background: linear-gradient(
+    rgba(109, 149, 252, 0.35) -292.67%,
+    rgba(21, 21, 21, 0.31) 74.83%
+  );
+}

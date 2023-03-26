@@ -5,7 +5,10 @@ import {
   pinterest,
   whatapp,
   linkedin,
-  search,
+  video_icon,
+  graphic_icon,
+  ux,
+  web_icon,
 } from "../assets";
 
 export const navLinks = [
@@ -18,7 +21,7 @@ export const navLinks = [
     title: "About Us",
   },
   {
-    id: "services",
+    id: "features",
     title: "Services",
   },
   {
@@ -41,27 +44,31 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    // icon: ,
+    icon: video_icon,
     title: "Video Marketing",
     content: "Lorem ipsum Neque do porro quisquam est qui do quam ",
+    backgroundColor: "bg_gradient_feature_1",
   },
   {
     id: "feature-2",
-    // icon: ,
+    icon: graphic_icon,
     title: "Graphi Design",
     content: "Lorem ipsum Neque do porro quisquam est qui do quam ",
+    backgroundColor: "bg_gradient_feature_2",
   },
   {
     id: "feature-3",
-    // icon ,
+    icon: ux,
     title: "UI/UX Design",
     content: "Lorem ipsum Neque do porro quisquam est qui do quam ",
+    backgroundColor: "bg_gradient_feature_3",
   },
   {
     id: "feature-4",
-    // icon ,
+    icon: web_icon,
     title: "Website Design",
     content: "Lorem ipsum Neque do porro quisquam est qui do quam ",
+    backgroundColor: "bg_gradient_feature_4",
   },
 ];
 
