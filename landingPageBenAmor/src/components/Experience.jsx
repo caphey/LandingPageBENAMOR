@@ -8,7 +8,7 @@ import { iconExperience } from "../assets";
 const List = ({ title, index }) => {
   return (
     <div
-      className={`flex flex-row ${
+      className={`flex flex-row mb-2 ${
         index !== listExperience.length - 1 ? "mb:6" : "mb-0"
       } feature-card`}
     >

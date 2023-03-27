@@ -26,6 +26,7 @@ import menu from "./menu.svg";
 import close from "./close.svg";
 import web_icon from "./web_icon.svg";
 import iconExperience from "./iconExperience.svg";
+import quote from "./quote.svg";
 
 export {
   about,
@@ -56,4 +57,5 @@ export {
   close,
   web_icon,
   iconExperience,
+  quote,
 };

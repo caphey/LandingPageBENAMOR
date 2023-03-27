@@ -7,6 +7,7 @@ import Features from "./Features";
 import Stats from "./Stats";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import Testimonials from "./Testimonials";
 
 export {
   Navbar,
@@ -18,4 +19,5 @@ export {
   Stats,
   Projects,
   Experience,
+  Testimonials,
 };
