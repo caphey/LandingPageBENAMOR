@@ -29,7 +29,12 @@ const Hero = () => {
           amet, consectetur, adipisci velit Neque porro elit Neque porro quis
           ipsum
         </p>
-        <Button title="GET IN TOUCH" />
+        <Button
+          title="GET IN TOUCH"
+          backGround="bg-transparent"
+          border="border-secondary"
+          textColor="text-contrast"
+        />
       </div>
 
       <div className={`flex-1 ${styles.flexEnd} md:my-0 mt-10 `}>

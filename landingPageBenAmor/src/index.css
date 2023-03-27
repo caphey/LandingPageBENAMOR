@@ -90,3 +90,11 @@
     rgba(21, 21, 21, 0.31) 74.83%
   );
 }
+
+.bg_gradient_form {
+  background: linear-gradient(
+    179.96deg,
+    #12192b 0.03%,
+    rgba(18, 25, 43, 0) 109.04%
+  );
+}

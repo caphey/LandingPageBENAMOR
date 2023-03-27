@@ -32,7 +32,12 @@ const Experience = () => {
           25 years of <span className="text-secondary">experience</span>
           <br className="sm:block hidden" /> as a creative agency
         </h2>
-        <Button title="READ MORE" />
+        <Button
+          title="READ MORE"
+          backGround="bg-transparent"
+          border="border-secondary"
+          textColor="text-contrast"
+        />
       </div>
 
       <div className={`${layout.sectionInfo} md:mt-0 mt-16`}>

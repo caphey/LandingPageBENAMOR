@@ -40,7 +40,12 @@ const Features = () => {
           amet, Neque porro elit NeDque porro Neque porro quisquam est qui do
           lorem ipsum quia dolor sit amets ipsum
         </p>
-        <Button title="VIEW ALL" />
+        <Button
+          title="VIEW ALL"
+          backGround="bg-transparent"
+          border="border-secondary"
+          textColor="text-contrast"
+        />
       </div>
 
       <div className={`${layout.sectionImg} md:mr-10 mr-0 `}>

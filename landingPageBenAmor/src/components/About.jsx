@@ -31,7 +31,12 @@ const About = () => {
           Neque porro Neque porro quisquam est qui do lorem ipsum quia dolor sit
           amet, Lorem ipsum Neque quis ipsum
         </p>
-        <Button title="READ MORE" />
+        <Button
+          title="READ MORE"
+          backGround="bg-transparent"
+          border="border-secondary"
+          textColor="text-contrast"
+        />
       </div>
     </section>
   );

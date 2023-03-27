@@ -27,6 +27,9 @@ import close from "./close.svg";
 import web_icon from "./web_icon.svg";
 import iconExperience from "./iconExperience.svg";
 import quote from "./quote.svg";
+import contact_1 from "./contact_1.svg";
+import contact_2 from "./contact_2.svg";
+import contact_3 from "./contact_3.svg";
 
 export {
   about,
@@ -58,4 +61,7 @@ export {
   web_icon,
   iconExperience,
   quote,
+  contact_1,
+  contact_2,
+  contact_3,
 };

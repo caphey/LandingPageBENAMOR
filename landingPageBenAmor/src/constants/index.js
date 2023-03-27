@@ -13,6 +13,9 @@ import {
   stats_2,
   stats_3,
   stats_4,
+  contact_1,
+  contact_2,
+  contact_3,
 } from "../assets";
 
 export const navLinks = [
@@ -115,6 +118,27 @@ export const listExperience = [
   {
     id: "list-experience-3",
     title: "Modern Technology",
+  },
+];
+
+export const contacts = [
+  {
+    id: "contact-1",
+    title: "Office Address",
+    content: "98, Arca St, PR City, 33414 , Indonesia",
+    icon: contact_1,
+  },
+  {
+    id: "contact-2",
+    title: "Call Us",
+    content: "(+BK) 123 456 7891",
+    icon: contact_2,
+  },
+  {
+    id: "contact-3",
+    title: "Mail Us",
+    content: "info@creaticagency.com",
+    icon: contact_3,
   },
 ];
 

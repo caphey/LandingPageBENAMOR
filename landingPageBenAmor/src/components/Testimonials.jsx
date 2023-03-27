@@ -57,7 +57,12 @@ const Testimonials = () => {
             />
           </div>
         </div>
-        <Button title="VIEW ALL TESTIMONIALS" />
+        <Button
+          title="VIEW ALL TESTIMONIALS"
+          backGround="bg-transparent"
+          border="border-secondary"
+          textColor="text-contrast"
+        />
       </div>
 
       <div className={`flex-1 flex ${styles.flexCenter} lg:block hidden`}>
