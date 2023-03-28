@@ -7,8 +7,9 @@ import Divider from "./Divider";
 const Footer = () => {
   return (
     <footer
-      className={`${styles.paddingY} ${layout.sectionInfo} items-center w-full `}
+      className={`${styles.paddingY} ${layout.sectionInfo} items-center w-full relative `}
     >
+      <div className="absolute z-[1] w-[1304px] h-[87px] bottom-0 rounded-full  bg_gradient_footer " />
       <img src={logo} alt="logo" className="w-[244px] h-[94px] mb-4" />
       <Divider />
 

@@ -51,13 +51,33 @@
   filter: blur(250px);
 }
 
-.bg_gradient {
+.bg_gradient_experience_top {
+  background: linear-gradient(
+    227.54deg,
+    rgba(109, 149, 252, 0.24) 4.35%,
+    rgba(21, 21, 21, 0) 68.03%
+  );
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+  filter: blur(92px);
+}
+
+.bg_gradient_experience_bottom {
   background: linear-gradient(
     223.47deg,
     rgba(109, 149, 252, 0.24) 3.19%,
     rgba(21, 21, 21, 0) 61.55%
   );
   transform: matrix(1, 0, 0, -1, 0, 0);
+  filter: blur(92px);
+}
+
+.bg_gradient_form_top {
+  background: linear-gradient(
+    223.47deg,
+    rgba(109, 149, 252, 0.24) 3.19%,
+    rgba(21, 21, 21, 0) 61.55%
+  );
+  filter: blur(92px);
 }
 
 .bg_gradient_feature_1 {
