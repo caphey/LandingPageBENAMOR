@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toogle, settoogle] = useState(false);
   return (
     <nav className="w-full flex py-6 items-center">
-      <img src={logo} alt="" className="w-[244px] h-[92px]" />
+      <img src={logo} alt="" className="w-[244px] h-[94px]" />
       <ul className="list-none md:flex hidden justify-center items-center flex-1 ">
         {navLinks.map((nav, index) => (
           <li
@@ -16,7 +16,7 @@ const Navbar = () => {
               index === navLinks.length - 1 ? "mr-0" : "mr-10"
             }`}
           >
-            <a href={`#$nav.id`}>{nav.title}</a>
+            <a href={`#nav.id`}>{nav.title}</a>
           </li>
         ))}
         <button>
@@ -24,7 +24,7 @@ const Navbar = () => {
         </button>
       </ul>
 
-      {/* RESPONSIVE */}
+      {/* RESPONSIVE BURGER MENU */}
 
       <div className="md:hidden flex flex-1 justify-end items-center">
         <img

@@ -6,7 +6,7 @@ import Button from "./Button";
 
 const Hero = () => {
   return (
-    <section
+    <header
       id="home"
       className={`flex md:flex-row flex-col bg_gradient_header ${styles.paddingHero}`}
     >
@@ -44,7 +44,7 @@ const Hero = () => {
           className="w-full h-full z-10 object-cover "
         />
       </div>
-    </section>
+    </header>
   );
 };
 

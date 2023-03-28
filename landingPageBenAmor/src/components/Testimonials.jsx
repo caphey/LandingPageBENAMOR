@@ -20,9 +20,7 @@ const Testimonials = () => {
         />
       </div>
 
-      <div
-        className={`flex flex-1 justify-start items-center flex-col sm:px-8 px-4 gap-[12px] `}
-      >
+      <div className="flex flex-1 justify-start items-center flex-col sm:px-8 px-4 gap-[12px]">
         <h2 className={`${styles.heading2} uppercase text-center mt-8 `}>
           what <span className="text-secondary">our</span>
           <br className="sm:block hidden" /> clients say
