@@ -53,7 +53,6 @@ const Experience = () => {
 
         <div className="absolute z-[1] w-[927px] h-[869px] bottom--1 rounded-full  bg_gradient_experience_bottom " />
       </div>
-      <div></div>
     </section>
   );
 };
