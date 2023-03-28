@@ -41,9 +41,9 @@ const Contact = () => {
       </div>
 
       <div
-        className={`${layout.sectionInfo} ${styles.flexCenter} md:mt-0 mt-16 relative`}
+        className={`${layout.sectionInfo} ${styles.flexCenter} md:mt-0 mt-16 relative z-[1]`}
       >
-        <div className="absolute z-[1] w-[927px] h-[869px] bottom-12 left-4 rounded-full  bg_gradient_form_top " />
+        <div className="absolute z-[-1] w-[927px] h-[869px] bottom-12 left-4 rounded-full  bg_gradient_form_top " />
         <form
           className={` ${styles.flexCenter} flex-col bg_gradient_form rounded-[34px] sm:px-16 sm:py-12 px-8 py-6 `}
         >
